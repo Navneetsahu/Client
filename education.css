@@ -1,0 +1,136 @@
+ <style>
+  body{
+    background-color: #e1d4c7;
+ 
+  }
+    /* style for navbar by ns*/
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(22, 183, 208);
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: rgb(196, 160, 234);
+    }
+ 
+
+.navactive {
+  background-color: #123651;
+}
+
+
+/*Education and experience div */
+
+.edubod{
+    border-width: 5px;
+  border-radius: 10px;
+  border-color: aqua;
+    margin-left: 35%;
+    margin-right:35%;
+    margin-top: 2%;
+    padding: 2px 2px;
+    text-align: center;
+    border-style: outset;
+}
+
+@media screen and (max-width: 600px) {
+   .edubod h2{
+    font-size: medium;
+   }
+}
+
+
+
+.eduhead{
+    border: 5px;
+    border-left-color: aqua ;
+    color: rgb(37, 168, 208);
+    
+}
+    
+/*table style*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #a6caec}
+  
+  th {
+    background-color: #183c6d;
+    color: white;
+  }
+  tr:hover {background-color: coral;}
+
+/* experience div for txt */
+.exptext{
+  border:4px solid CORAL;
+  width:800px;
+  height:200px ;
+}
+
+
+  /*icons */
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+     /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    color: rgb(37, 138, 201);
+  }
+
+  .ico{
+    font-size: 18px;
+    align-content: center;
+   
+  }
+  .educolumn{
+    margin-top:20px ;
+  
+  position: relative;
+  height:220px ;
+  
+  margin-left:50px;
+  margin-right:50px;
+  }
+
+  .edheadcolumn{
+    margin-top:20px ;
+  
+  position: relative;
+  height:250px ;
+  
+  margin-left:50px;
+  margin-right:50px;
+  }
+
+
+  
+ 

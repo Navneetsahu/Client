@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr.Deepak Mondal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="profilestyle.css">
+  </head>
+
+ 
+
+
+<body>
+  <div class="topnav"  id="mytopnav">
+    <ul>
+        <li><a class="navactive" href="profile.html" title="About Me">PROFILE</a></li>
+        <li><a href="education.html">EDUCATION AND EXPERIENCE</a></li>
+        <li><a href="research.html">RESEARCH</a></li>
+        <li><a href="teaching.html">TEACHING</a></li>
+        <li><a href="publication.html">PUBLICATION</a></li>
+        <li><a href="patent.html">PATENTS</a></li>
+        <li><a href="gallery.html" >GALLERY</a></li>
+        <li><a href="#vernica">COMING SOON </a></li>
+      
+     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i></a>  
+      </ul>
+     
+   </div>
+<div class="row">
+<div class="column">
+<div class="card">
+  <img src="/home page image/sir.jpg" alt="Deepak" width="100%" >
+  <div class="container">
+    <h4><b>DR.DEEPAK MANDAL</b></h4> 
+    <p>ASSOCIATE PROFFESOR</p> 
+    
+  </div>
+ </div>
+ </div>
+
+ <div class="column">
+    <div class="container2">
+       <h2 style="color:rgb(63, 172, 212) ;">Dr.DEEPAK KUMAR MANDAL</h2>
+       <h3>ASSOCIATE PROFFESOR</h3>
+       <h4 style="color:rgb(57, 110, 202);" >DEPARTMENT OF MECHANICAL ENGINEERING</h4>
+       <h4>ADDRESS:</h4><p>Room 219, Department of Mechanical Engineering,
+        Indian Institute of Technology (ISM),
+        Dhanbad - 826 004, India.</p>
+        <h4>EMAIL:</h4><p>deepak@iitism.ac.in</p>
+        <h4>PHONE:</h4><p>+91 326 223 5058</p>
+
+    
+      
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="resin" >
+  <h2 style="color:rgb(236, 240, 12) ;" >RESEARCH INTERESTS</h2>
+</div>
+
+<div class="row2">
+  <div class="column1">
+    <h3 style="color:rgb(124, 193, 233) ;">SOME OF RESEARCH INTERESTS TOPICs</h3>
+    <p> Shedding of drops from surfaces</p>
+     <p>  Impact of drops on various surfaces</p>
+      <p> Evaporation and sprays</p>
+      <p> Drop – acoustics interactions</p>
+      <p> Flow diagnostics </p>
+      <p> Interfacial flow</p>
+ 
+   </div>
+  
+  
+   <div class="column2">
+     
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="home page image/ slide1 (1).jpg" style="width:88%">
+            <div class="text">Caption Text</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="home page image/ slide1 (2).jpg" style="width:88%">
+            <div class="text">Caption Two</div>
+          </div>
+          
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="home page image/ slide1 (3).jpg" style="width:88%">
+            <div class="text">Caption Three</div>
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+    </div>
+</div>
+   
+
+<div class="news" >
+  <h2 style="color:rgb(236, 240, 12) ;" >NEWS/UPDATES</h2>
+</div>
+
+<div class="slideshow-container-news">
+
+  <div class="newsSlides fade">
+     
+    <img src="home page image/ news (1).jpg" style="width:20%">
+    <div class="text">THis is news heADing</div>
+  </div>
+  
+  <div class="newsSlides fade">
+    
+    <img src="home page image/ news (2).jpg" style="width:100%" height="535px">
+    <div class="text">this is news heading for 2slide </div>
+  </div>
+  
+  <div class="newsSlides fade">
+  
+    <img src="home page image/ slide1 (3).jpg" style="width:100%" height="535px">
+    <div class="text">Caption Three</div>
+  </div>
+  
+  </div>
+  
+  <br>
+  <div style="text-align:center">
+    <span class="point"></span> 
+    <span class="point"></span> 
+    <span class="point"></span> 
+  </div>
+
+
+
+
+
+
+ <!--Javascript code for research intrest div for sliding images-->
+    <script>
+     
+     let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");+
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+/* javASCRIPT FOR AUTOMATIC SLIDING OF NEWS */
+ 
+let nslideIndex = 0;
+AutoshowSlides();
+
+function AutoshowSlides() {
+  let i;
+  let nslides = document.getElementsByClassName("newsSlides");
+  let ndots = document.getElementsByClassName("point");
+  for (i = 0; i < nslides.length; i++) {
+    nslides[i].style.display = "none";  
+  }
+  nslideIndex++;
+  if (nslideIndex > nslides.length) {nslideIndex = 1}    
+  for (i = 0; i < ndots.length; i++) {
+    ndots[i].className = ndots[i].className.replace(" active", "");
+  }
+  nslides[nslideIndex-1].style.display = "block";  
+  ndots[nslideIndex-1].className += " active";
+  setTimeout(AutoshowSlides, 2000); // Change image every 2 seconds
+}
+      </script>
+  
+</body>
+</html>
+
+///////////////////pofilestyle//////////////////////
+<style>
+  body{
+     
+   
+    background-color:#FFFBE7;
+  }
+    /* style for navbar by ns*/
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(22, 183, 208);
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color:#ECB365;
+    }
+ 
+
+.navactive {
+  background-color: #123651;
+}
+    /* style for navbar closes */
+  
+/* responsive start*/
+.topnav .icon {
+  display: none;
+ margin-top: 10px;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav li:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+body{
+  background: none;
+  font-size: 2vw;
+  background-color: ;
+}
+
+}
+ .row{
+  margin-top:20px ;
+  border:5px solid rgb(62, 180, 231) ;
+  position: relative;
+  height:545px ;
+  background-color:#FCF8E8;
+  margin-left:50px;
+  margin-right:50px;
+ 
+ }
+ /* Two columns side by side */
+.column {
+  margin-top: 5px;
+  float: left;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  width: 28%;
+  height:75%;
+  border-radius: 5px;
+}
+
+ 
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+ 
+
+/* Some left and right padding inside the container */
+.container {
+   border: 5px solid rgb(253, 252, 252);
+  padding: 2px 16px;
+  text-align: center;
+  background-color: rgb(180, 202, 236);
+}
+
+.container2 {
+  margin-left: 160px;
+  padding: 0px;
+  width:500px ;
+  border: #123651;
+ 
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.title {
+  color: grey;
+}
+/*REsearch interest div */
+.resin{
+  border: 5px solid rgb(116, 197, 225);
+  margin-left: 35%;
+  margin-right:35%;
+  margin-top: 2%;
+  padding: 2px 2px;
+  text-align: center;
+  border-style: double;
+  background-color: #256D85;
+}
+/*div for research interest contains two columns for images and text*/
+.row2{
+  margin-top:20px ;
+  border:5px solid #256D85 ;
+  position: relative;
+  height:545px ;
+  margin-left: 50px;
+  margin-right: 50px;
+ 
+ }
+ /* Two columns side by side */
+.column1 {
+  margin-top: 5px;
+  float: left;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  width: 28%;
+  height:75%;
+  border-radius: 5px;
+}
+
+.column2{
+  width:800px;
+  height:500px ;
+  margin-left:400px ;
+  margin-top:20px ;
+  border: 2px solid #256D85;
+  padding: 2px 2px;
+}
+
+/*sliude images*/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #20395e;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*REsearch interest div */
+.news{
+  border: 5px solid rgb(116, 197, 225);
+  margin-left: 40%;
+  margin-right:40%;
+  margin-top: 2%;
+  padding: 2px 2px;
+  text-align: center;
+  border-style: double;
+  background-color: #256D85;
+}
+
+
+/*div for news automatic sliding*/
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container-news {
+ position: relative;
+  height:545px ;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border:5px solid blue ;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.point {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+

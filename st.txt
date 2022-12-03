@@ -1,0 +1,58 @@
+ 
+ <div class="cont1">
+ 
+  <div class="card">
+    <img src="home page image/sir.jpg" alt="Avatar" style="width:100%">
+    <div class="cardin">
+      <h4><b>DR.DEEPAK MONDAL</b></h4> 
+      <p>ASSOCIATE PROFFESOR</p> 
+    </div>
+   
+  </div>
+  <div class="infocard" >
+    <h3>NAME : </h3><h4>DEEPAK MONDAL</h4>
+  </div>
+ </div>
+
+//Style
+.cont1{
+  margin-top: 20px;
+  border: 5px solid #A3E4DB;
+  background-color: #FFFBE7;
+  width:98%;
+  height: 550px;
+  padding:10px;
+  margin-right: 10px;
+  
+ 
+  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 28%;
+  border-radius: 5px;
+  float: left;
+}
+
+ 
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.cardin {
+  padding: 2px 16px;
+  text-align: center;
+  background-color: rgb(132, 177, 233);
+
+}
+.infocard {
+  padding-left: 280px;
+  width: 68%; 
+  border: 5px solid rgb(108, 172, 196);
+  border-radius:5px;
+
+}
+    

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr.Deepak Mondal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="profilestyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+ 
+  </head>
+
+ 
+
+
+<body>
+  <div class="topnav"  id="mytopnav">
+    <ul>
+        <li><a  class="navactive"  href="profile.html" title="About Me">PROFILE</a></li>
+        <li><a href="education.html" title="EDUCATION AND EXPERIENCE">EDUCATION AND EXPERIENCE</a></li>
+        <li><a href="research.html">RESEARCH</a></li>
+        <li><a href="teaching.html">TEACHING</a></li>
+        <li><a href="publication.html">PUBLICATION</a></li>
+        <li><a href="patent.html">PATENT</a></li>
+        <li><a href="gallery.html" >GALLERY</a></li>
+        <li><a href="#vernica">COMING SOON </a></li>
+      
+ 
+      </ul>
+</div>
+ 
+
+ 
+<div class="row">
+  <div class="column">
+  <div class="card">
+    <img src="/home page image/sir.jpg" alt="Deepak" width="100%" >
+    <div class="container">
+      <h4><b>DR.DEEPAK MANDAL</b></h4> 
+      <p>ASSOCIATE PROFFESOR</p> 
+      
+    </div>
+   </div>
+   </div>
+  
+   <div class="column">
+      <div class="container2">
+         <h2 style="color:rgb(63, 172, 212) ;">Dr.DEEPAK KUMAR MANDAL</h2>
+         <h3>ASSOCIATE PROFFESOR</h3>
+         <h4 style="color:rgb(57, 110, 202);" >DEPARTMENT OF MECHANICAL ENGINEERING</h4>
+         <h4>ADDRESS:</h4><p>Room 219, Department of Mechanical Engineering,
+          Indian Institute of Technology (ISM),
+          Dhanbad - 826 004, India.</p>
+          <h4>EMAIL:</h4><p>deepak@iitism.ac.in</p>
+          <h4>PHONE:</h4><p>+91 326 223 5058</p>
+  
+      
+        
+      </div>
+    </div>
+  </div>
+  </div>
+ 
+  <div class="resin" >
+    <h2 style="color:rgb(236, 240, 12) ;" >RESEARCH INTERESTS</h2>
+  </div>
+  
+  <div class="row2">
+    <div class="column1">
+      <h3 style="color:rgb(124, 193, 233) ;">SOME OF RESEARCH INTERESTS TOPICs</h3>
+      <p> Shedding of drops from surfaces</p>
+       <p>  Impact of drops on various surfaces</p>
+        <p> Evaporation and sprays</p>
+        <p> Drop – acoustics interactions</p>
+        <p> Flow diagnostics </p>
+        <p> Interfacial flow</p>
+   
+     </div>
+    
+    
+     <div class="column2">
+       
+          <div class="slideshow-container">
+  
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="home page image/ slide1 (1).jpg" style="width:88%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="home page image/ slide1 (2).jpg" style="width:88%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="home page image/ slide1 (3).jpg" style="width:88%">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+          
+          
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+      </div>
+    </div> 
+
+    <div class="news" >
+      <h2 style="color:rgb(236, 240, 12) ;" >NEWS/UPDATES</h2>
+    </div>
+    
+    <div class="slideshow-container-news">
+    
+      <div class="newsSlides fade">
+         
+        <img src="home page image/ news (1).jpg" style="width:20%">
+        <div class="text">THis is news heADing</div>
+      </div>
+      
+      <div class="newsSlides fade">
+        
+        <img src="home page image/ news (2).jpg" style="width:100%" height="535px">
+        <div class="text">this is news heading for 2slide </div>
+      </div>
+      
+      <div class="newsSlides fade">
+      
+        <img src="home page image/ slide1 (3).jpg" style="width:100%" height="535px">
+        <div class="text">Caption Three</div>
+      </div>
+    
+      
+      
+      <br>
+      <div style="text-align:center">
+        <span class="point"></span> 
+        <span class="point"></span> 
+        <span class="point"></span> 
+      </div>
+    </div>
+    
+ 
+
+
+
+
+
+ 
+
+
+
+ <!--Javascript code for research intrest div for sliding images-->
+ <script>
+     
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+let i;
+let slides = document.getElementsByClassName("mySlides");
+let dots = document.getElementsByClassName("dot");
+if (n > slides.length) {slideIndex = 1}    
+if (n < 1) {slideIndex = slides.length}
+for (i = 0; i < slides.length; i++) {
+ slides[i].style.display = "none";  
+}
+for (i = 0; i < dots.length; i++) {
+ dots[i].className = dots[i].className.replace(" active", "");
+}
+slides[slideIndex-1].style.display = "block";  
+dots[slideIndex-1].className += " active";
+}
+
+
+/* javASCRIPT FOR AUTOMATIC SLIDING OF NEWS */
+ 
+let nslideIndex = 0;
+AutoshowSlides();
+
+function AutoshowSlides() {
+  let i;
+  let nslides = document.getElementsByClassName("newsSlides");
+  let ndots = document.getElementsByClassName("point");
+  for (i = 0; i < nslides.length; i++) {
+    nslides[i].style.display = "none";  
+  }
+  nslideIndex++;
+  if (nslideIndex > nslides.length) {nslideIndex = 1}    
+  for (i = 0; i < ndots.length; i++) {
+    ndots[i].className = ndots[i].className.replace(" active", "");
+  }
+  nslides[nslideIndex-1].style.display = "block";  
+  ndots[nslideIndex-1].className += " active";
+  setTimeout(AutoshowSlides, 2000); // Change image every 2 seconds
+}
+
+
+</script>
+</body>
+</html>
